@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dead Code Safety"
+  short_description: "Study dead-code candidates safely."
+  default_prompt: "Use $dead-code-safety to study likely dead code, classify deletion risk, and propose safe cleanup candidates."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Book Router"
+  short_description: "Apply engineering books to project decisions."
+  default_prompt: "Use $book-router to route an engineering question to the right book, apply its reasoning to the project, and preserve exact IDs and prose anchors for later work."

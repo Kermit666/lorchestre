@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lorchestre"
+  short_description: "Coordinate long-running Codex development work"
+  default_prompt: "Use $lorchestre to coordinate this long-running development task with durable campaign memory."

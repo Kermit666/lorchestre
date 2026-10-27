@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "lookup_source_weights": {
+    "title": 1.0,
+    "alias": 0.95,
+    "manual": 1.0,
+    "generated": 0.72
+  },
+  "relation_boost_weights": {
+    "likely_refactorings": 0.16,
+    "starter_moves": 0.14,
+    "follow_up_moves": 0.1,
+    "related_smells": 0.08,
+    "neighbor_smells": 0.06,
+    "related_cards": 0.0
+  },
+  "generated_phrase_variants": {
+    "function": [
+      "method"
+    ],
+    "functions": [
+      "methods"
+    ],
+    "variable": [
+      "local variable",
+      "temp variable"
+    ],
+    "field": [
+      "property",
+      "member"
+    ],
+    "parameter": [
+      "argument"
+    ],
+    "parameters": [
+      "arguments"
+    ],
+    "record": [
+      "data object"
+    ],
+    "collection": [
+      "list",
+      "array"
+    ],
+    "conditional": [
+      "if else",
+      "branch"
+    ],
+    "conditionals": [
+      "if else",
+      "branches"
+    ],
+    "query": [
+      "derived value"
+    ],
+    "constructor": [
+      "initializer"
+    ],
+    "delegate": [
+      "wrapper",
+      "proxy"
+    ],
+    "loop": [
+      "iteration"
+    ],
+    "loops": [
+      "iterations"
+    ],
+    "polymorphism": [
+      "dynamic dispatch"
+    ],
+    "subclass": [
+      "child class"
+    ],
+    "superclass": [
+      "base class"
+    ],
+    "special case": [
+      "null object"
+    ],
+    "setting method": [
+      "setter"
+    ],
+    "parameter object": [
+      "argument object"
+    ]
+  },
+  "deny_patterns": [
+    "\\bobjectes\\b",
+    "\\btypees\\b",
+    "\\bsubobjectes\\b",
+    "\\bsubtypees\\b",
+    "\\bargumentize\\b"
+  ],
+  "low_confidence_threshold": 90.0
+}

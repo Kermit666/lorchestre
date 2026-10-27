@@ -1,0 +1,4 @@
+interface:
+  display_name: "Book Router Creator"
+  short_description: "Onboard a new book pack end to end."
+  default_prompt: "Add a new programming book to the local book-router from source file through cleaned markdown, index, semantic cards, validators, and synced pack artifacts."

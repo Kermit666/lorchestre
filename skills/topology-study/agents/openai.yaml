@@ -1,0 +1,4 @@
+interface:
+  display_name: "Topology Study"
+  short_description: "Study repo topology, code placement, and structural drift."
+  default_prompt: "Use $topology-study to study this repo area for topology, misplaced code, oversized files/functions, import cycles, duplicates, and refactor move proposals."
