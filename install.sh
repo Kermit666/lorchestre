@@ -11,7 +11,7 @@ case "$target" in
   *) echo "usage: $0 claude|codex|both" >&2; exit 1 ;;
 esac
 
-skills=(book-router book-router-creator topology-study dead-code-safety)
+skills=(book-router topology-study dead-code-safety)
 
 # Copy a companion skill, keeping any books the user already added.
 copy_skill() {

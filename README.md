@@ -60,11 +60,9 @@ The Lead uses these when they help; it works without them.
 
 - **book-router**: routes a design question to the right section of an
   indexed programming book and applies that book's reasoning. **No books are
-  included**, because they are copyrighted. Add the books you own with
-  book-router-creator; see the
-  [recommended books](skills/book-router/README.md#recommended-books).
-- **book-router-creator**: turns a book you own (PDF, EPUB, or markdown) into
-  an indexed book pack for book-router.
+  included**, because they are copyrighted; see the
+  [recommended books](skills/book-router/README.md#recommended-books) and how
+  to add the ones you own.
 - **topology-study**: studies module boundaries, dependency direction,
   oversized files, and duplicated code before a refactor.
 - **dead-code-safety**: read-only dead-code analysis with false-positive

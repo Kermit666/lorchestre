@@ -10,7 +10,7 @@ works without them; each book you add makes it more useful.
 ## Recommended books
 
 These are the books it was built and tuned with. Buy the ones you want and add
-them with book-router-creator (PDF, EPUB, or markdown).
+them as described below.
 
 | Book | Author | Use it for | Suggested id |
 |---|---|---|---|
@@ -29,10 +29,13 @@ you work on backends.
 
 ## Adding a book
 
-Ask your agent to use the book-router-creator skill on the file, for example:
-"use book-router-creator to add ~/books/refactoring.epub as
-fowler-refactoring". It builds the cleaned text, index, and cards, and
-registers the book. Using the suggested id keeps it matching the routing
-hints already in this skill.
+There is no one-command importer yet. A book pack is a cleaned markdown copy
+of the book, a structural index, and decision-oriented cards, registered in
+`references/library/registry.json`; the format is described in
+[references/book-pack-contract.md](references/book-pack-contract.md). Give
+your agent the book file and that contract and ask it to build the pack, for
+example: "build a book-router pack for ~/books/refactoring.epub as
+fowler-refactoring, following book-pack-contract.md". Using the suggested id
+keeps it matching the examples already in this skill.
 
 Your books stay on your machine: rerunning `install.sh` keeps them.
